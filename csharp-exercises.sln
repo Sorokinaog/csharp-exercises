@@ -18,17 +18,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "Gradebook
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharCounter", "CharCounter\CharCounter.csproj", "{8B886142-4E8D-423A-8993-19A437D470F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{C5036E2A-C2BB-40E8-B7D8-CBF7937B6C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Area", "Area\Area.csproj", "{C5036E2A-C2BB-40E8-B7D8-CBF7937B6C68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0D93DE60-6A1A-44C5-8047-C8263E6B6EBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0D93DE60-6A1A-44C5-8047-C8263E6B6EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloUserName", "HelloUserName\HelloUserName.csproj", "{ABF12D5D-A0C1-4B73-9862-03FE8CEB19D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloUserName", "HelloUserName\HelloUserName.csproj", "{ABF12D5D-A0C1-4B73-9862-03FE8CEB19D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaRectangle", "AreaRectangle\AreaRectangle.csproj", "{1DDE3F3C-7466-4406-BECB-BFFBC3F23DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaRectangle", "AreaRectangle\AreaRectangle.csproj", "{1DDE3F3C-7466-4406-BECB-BFFBC3F23DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesPerGallon", "MilesPerGallon\MilesPerGallon.csproj", "{681932BD-A0F8-4F03-BD45-016719CB9B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilesPerGallon", "MilesPerGallon\MilesPerGallon.csproj", "{681932BD-A0F8-4F03-BD45-016719CB9B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSubstring", "FindSubstring\FindSubstring.csproj", "{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSubstring", "FindSubstring\FindSubstring.csproj", "{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "SumEvenNumbers\SumEvenNumbers.csproj", "{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printing5letterWords", "Printing5letterWords\Printing5letterWords.csproj", "{F3257F80-60FB-400F-A50A-CEDEF1A11254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingArrayValues", "PrintingArrayValues\PrintingArrayValues.csproj", "{4CACA11E-2305-415C-A080-2059D1EC7221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsBookDict", "StudentsBookDict\StudentsBookDict.csproj", "{77420519-B887-4080-9B09-6B93405F6A10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +100,22 @@ Global
 		{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3257F80-60FB-400F-A50A-CEDEF1A11254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3257F80-60FB-400F-A50A-CEDEF1A11254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3257F80-60FB-400F-A50A-CEDEF1A11254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3257F80-60FB-400F-A50A-CEDEF1A11254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CACA11E-2305-415C-A080-2059D1EC7221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CACA11E-2305-415C-A080-2059D1EC7221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CACA11E-2305-415C-A080-2059D1EC7221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CACA11E-2305-415C-A080-2059D1EC7221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77420519-B887-4080-9B09-6B93405F6A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77420519-B887-4080-9B09-6B93405F6A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77420519-B887-4080-9B09-6B93405F6A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77420519-B887-4080-9B09-6B93405F6A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
