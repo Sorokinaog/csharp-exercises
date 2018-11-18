@@ -30,13 +30,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilesPerGallon", "MilesPerG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSubstring", "FindSubstring\FindSubstring.csproj", "{1F4E345A-1DD9-44D5-B569-58BD0D8CC89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "SumEvenNumbers\SumEvenNumbers.csproj", "{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbers", "SumEvenNumbers\SumEvenNumbers.csproj", "{A613CD63-50C7-4E99-AE29-DFF95ACCEF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printing5letterWords", "Printing5letterWords\Printing5letterWords.csproj", "{F3257F80-60FB-400F-A50A-CEDEF1A11254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Printing5letterWords", "Printing5letterWords\Printing5letterWords.csproj", "{F3257F80-60FB-400F-A50A-CEDEF1A11254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingArrayValues", "PrintingArrayValues\PrintingArrayValues.csproj", "{4CACA11E-2305-415C-A080-2059D1EC7221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingArrayValues", "PrintingArrayValues\PrintingArrayValues.csproj", "{4CACA11E-2305-415C-A080-2059D1EC7221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsBookDict", "StudentsBookDict\StudentsBookDict.csproj", "{77420519-B887-4080-9B09-6B93405F6A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsBookDict", "StudentsBookDict\StudentsBookDict.csproj", "{77420519-B887-4080-9B09-6B93405F6A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{DD8D758D-8B21-4976-B051-4E1BA4250787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +118,10 @@ Global
 		{77420519-B887-4080-9B09-6B93405F6A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77420519-B887-4080-9B09-6B93405F6A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77420519-B887-4080-9B09-6B93405F6A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
