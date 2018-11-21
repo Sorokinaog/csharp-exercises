@@ -38,7 +38,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingArrayValues", "Prin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsBookDict", "StudentsBookDict\StudentsBookDict.csproj", "{77420519-B887-4080-9B09-6B93405F6A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{DD8D758D-8B21-4976-B051-4E1BA4250787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csproj", "{DD8D758D-8B21-4976-B051-4E1BA4250787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{2E4B9AF1-541A-4818-8C4F-3674849591AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +124,10 @@ Global
 		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD8D758D-8B21-4976-B051-4E1BA4250787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4B9AF1-541A-4818-8C4F-3674849591AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4B9AF1-541A-4818-8C4F-3674849591AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4B9AF1-541A-4818-8C4F-3674849591AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4B9AF1-541A-4818-8C4F-3674849591AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
