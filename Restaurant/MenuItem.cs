@@ -24,7 +24,15 @@ namespace Restaurant
         public MenuItem(string name, double price, string description, string category)
             : this(name, price, description, category, true) { }
 
-
+        public override string ToString()
+        {
+            var newTag = "";
+            if (IsNewItem)
+            {
+                newTag = "***New!***";
+            }
+            return String.Format("{0} - ${1} - {2} ({3}) {4}", Name, Price, Description, Category, newTag);
+        }
 
     }
 }

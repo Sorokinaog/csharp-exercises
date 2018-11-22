@@ -26,7 +26,20 @@ namespace Restaurant
             this.MenuItems.Remove(menuItem);
             this.Updated = DateTime.Now;
         }
+
+        public override string ToString()
+        {
+            string menuStr = String.Format("Updated ({0}):{1}", this.Updated, Environment.NewLine);
+            foreach (MenuItem menuItem in this.MenuItems)
+            {
+                menuStr = menuStr + menuItem.ToString() + Environment.NewLine;
+            }
+
+            return menuStr;
+        }
     }
+
+
 
 
 
