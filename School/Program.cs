@@ -7,47 +7,17 @@ namespace School
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student olga = new Student("Olga");
+            olga.AddGrade(13, 4.0);
+            olga.AddGrade(7, 3.0);
+            olga.AddGrade(10, 4.0);
+            Student max = new Student("Max");
+            max.AddGrade(6, 3);
+
+            Console.WriteLine(olga);
+            Console.WriteLine(max);
+            Console.ReadLine();
         }
     }
 
-    public class Student
-    {
-        string name;
-        int studentId;
-        int numOfCredits;
-        double gpa;
-
-        public string Name
-        {
-            get { return name; }
-            internal set { name = value; }
-        }
-        public int StudentId { get; set; }
-        public int NumOfCredits { get; set; }
-        public double Gpa { get; set; }
-
-        private Student(string name, int studentId, int numOfCredits, double gpa)
-        {
-            Name = name;
-            StudentId = studentId;
-            NumOfCredits = numOfCredits;
-            Gpa = gpa;
-        }
-    }
-
-    public class Course
-    {
-        private int roomNumber;
-        private  List<Student> students;
-        private string teacherName;
-
-        public int RoomNumber { get; set; }
-        public List<Student> Students { get; set; }
-        public string TeacherName
-        {
-            get { return teacherName; }
-            internal set { teacherName = value; }
-        }
-    }
 }

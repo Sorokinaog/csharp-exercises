@@ -34,5 +34,22 @@ namespace Restaurant
             return String.Format("{0} - ${1} - {2} ({3}) {4}", Name, Price, Description, Category, newTag);
         }
 
+        public override bool Equals(Object o)
+        {
+
+            if (o == this)
+            {
+                return true;
+            }
+
+            if (o == null || o.GetType() != GetType())
+            {
+                return false;
+            }
+
+            MenuItem menuItemObj = o as MenuItem;
+            return (this.Name == menuItemObj.Name && this.Category == menuItemObj.Category);
+        }
+
     }
 }
